@@ -1,0 +1,6 @@
+Feature: create mirror
+  @CreateMirror
+  Scenario: create mirror MA001
+    Given None
+    when create mirror with Mirror mirror123, Description abc
+    then create mirror resultMessage Success
