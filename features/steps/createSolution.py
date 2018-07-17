@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from constant import Url
 
-@then("create solution with name {solutionName}, modelName {modelName}, version {version}, tagName {tagName}, imageUrl {imageUrl}")
+@when("create solution with name {solutionName}, modelName {modelName}, version {version}, tagName {tagName}, imageUrl {imageUrl}")
 def step_impl(context, solutionName, modelName, version, tagName,imageUrl):
     context.driver.get(Url.BASE_URL + Url.SOLUTION_CREATE)
     sleep(10)
