@@ -5,7 +5,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-
 @when('deploy multiple app')
 def step_impl(context):
     context.driver.get(Url.BASE_URL + Url.APP)

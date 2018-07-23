@@ -63,20 +63,24 @@ def step_impl(context, appName):
     context.driver.get(Url.BASE_URL + Url.APP)
     print("device list url = " + str(Url.BASE_URL + Url.APP))
     sleep(10)
-    context.driver.find_element_by_xpath(
-        "//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div[2]/button[3]/i").click()
+    # context.driver.find_element_by_xpath(
+    #     "//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div[2]/button[3]/i").click()
+    # sleep(5)
+    # rowElement = context.driver.find_element_by_xpath("//div[@id='app']/div/div[2]/div/div[2]/div[2]/div[1]/div/div[2]/div/div[2]/div")
+    # rows = rowElement.find_elements_by_xpath(".//div[contains(@class,'col-md-4')]")
+    # for i in rows:
+    #     titleElement = i.find_element_by_xpath(".//div/div/a/h6")
+    #     if appName in titleElement.text:
+    #         titleElement.find_element_by_xpath("./../following-sibling::div[6]/div/button[1]").click()
+    #         sleep(5)
+    #         context.driver.find_element_by_xpath("//div[@id='modal_theme_warning']/div/div/div[3]/button[2]").click()
+    #         sleep(5)
+    #         break
+    context.driver.find_element_by_xpath("//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div[2]/button[3]/i").click()
     sleep(5)
-    rowElement = context.driver.find_element_by_xpath("//div[@id='app']/div/div[2]/div/div[2]/div[2]/div[1]/div/div[2]/div/div[2]/div")
-    rows = rowElement.find_elements_by_xpath(".//div[contains(@class,'col-md-4')]")
-    for i in rows:
-        titleElement = i.find_element_by_xpath(".//div/div/a/h6")
-        if appName in titleElement.text:
-            titleElement.find_element_by_xpath("./../following-sibling::div[6]/div/button[1]").click()
-            sleep(5)
-            context.driver.find_element_by_xpath("//div[@id='modal_theme_warning']/div/div/div[3]/button[2]").click()
-            sleep(5)
-            break
-
+    context.driver.find_element_by_xpath("//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div[6]/div/button/span").click()
+    sleep(5)
+    context.driver.find_element_by_xpath("//div[@id='modal_theme_warning']/div/div/div[3]/button[2]").click()
 
 
 @then('delete app resultMessage {resultMessage}')

@@ -10,20 +10,19 @@ from selenium.webdriver.common.by import By
 def step_impl(context):
     context.driver.get(Url.BASE_URL + Url.APP)
     print("url = " + str(Url.BASE_URL + Url.APP))
-    sleep(15)
+    sleep(10)
     context.driver.find_element_by_xpath(
         "//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div[2]/button[3]/i").click()
-    sleep(5)
+    sleep(2)
     context.driver.find_element_by_xpath(
         "//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/a/h6").click()
     sleep(5)
-    context.driver.find_element_by_xpath("//div[@id='el-collapse-head-240']/button/i").click()
+    context.driver.find_element_by_xpath("//div[@id='app']/div/div[2]/div/div[2]/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div/button/i").click()
     sleep(5)
     context.driver.find_element_by_xpath(
-        "//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div[2]/div/label/span/span").click()
-    sleep(1)
-    context.driver.find_element_by_xpath(
-        "//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div[3]/button/span/span").click()
+        "//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div[2]/div/label[2]/span[2]").click()
+    sleep(2)
+    context.driver.find_element_by_xpath("(//button[@type='button'])[3]").click()
 
 @then('change permission resultMessage {resultMessage}')
 def step_impl(context, resultMessage):

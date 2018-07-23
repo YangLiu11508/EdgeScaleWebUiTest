@@ -11,6 +11,7 @@ class Url:
     global REGISTER
     global MODEL
     global TASK
+    global USER
 
     BASE_URL = "https://console.edgescale.org"
     LOGIN = "/login"
@@ -23,3 +24,4 @@ class Url:
     REGISTER = "/apply"
     MODEL = "/model"
     TASK = "/task"
+    USER = "/manage/user"

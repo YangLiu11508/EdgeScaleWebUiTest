@@ -16,11 +16,10 @@ def step_impl(context):
     sleep(3)
     context.driver.find_element_by_xpath(
         "//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div[4]/a/button/span").click()
-    sleep(3)
+    sleep(7)
     context.driver.find_element_by_xpath("//table[@id='DevicesDataTable']/tbody/tr/td/div/label/span/span").click()
-    sleep(3)
+    sleep(1)
     context.driver.find_element_by_xpath("//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div[2]").click()
-
 
 @then('deploy app resultMessage {resultMessage}')
 def step_impl(context, resultMessage):
@@ -36,7 +35,7 @@ def step_impl(context):
     sleep(15)
     context.driver.find_element_by_xpath("//div[@id='app']/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[3]/table/tbody/tr/td[6]/div/button/i").click()
     sleep(2)
-    context.driver.find_element_by_xpath("(//button[@type='button'])[12]").click()
+    context.driver.find_element_by_xpath("//div[@id='modal_theme_warning']/div/div/div[3]/button[2]").click()
 
 
 @then('delete task resultMessage {resultMessage}')

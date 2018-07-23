@@ -36,7 +36,7 @@ def step_impl(context, OldPassword, Password):
     # 登录
     context.driver.find_element_by_xpath("//input[@type='text']").click()
     context.driver.find_element_by_xpath("//input[@type='text']").clear()
-    context.driver.find_element_by_xpath("//input[@type='text']").send_keys("zhengqiong.zhu")
+    context.driver.find_element_by_xpath("//input[@type='text']").send_keys("liu.yang_1@nxp.com")
     print('send username')
     context.driver.find_element_by_xpath("//input[@type='password']").click()
     context.driver.find_element_by_xpath("//input[@type='password']").clear()
