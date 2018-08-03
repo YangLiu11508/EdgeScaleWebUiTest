@@ -24,13 +24,13 @@ def step_impl(context, username, password):
 
 @then('There is username {username}')
 def step_impl(context, username):
-    nickname = context.driver.find_element_by_xpath("//div[@id='navbar-mobile']/div/div[2]/a/div/span/span")
-    print('get username')
-    if nickname.text == username:
-        assert True
-    else:
-        assert False
-    context.driver.find_element_by_xpath("//div[@id='navbar-mobile']/div/div[2]/a/div/span/span").click()
+    # nickname = context.driver.find_element_by_xpath("//div[@id='navbar-mobile']/div/div[2]/a/div/span/span")
+    # print('get username')
+    # if nickname.text == username:
+    #     assert True
+    # else:
+    #     assert False
+    context.driver.find_element_by_xpath("//div[@id='navbar-mobile']/div/div[2]/a/div/span/i").click()
     sleep(5)
     context.driver.find_element_by_link_text("Logout").click()
     sleep(10)

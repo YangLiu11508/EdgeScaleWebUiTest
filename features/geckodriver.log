@@ -1,0 +1,126 @@
+1533179778891	geckodriver	INFO	geckodriver 0.20.1
+1533179778903	geckodriver	INFO	Listening on 127.0.0.1:61683
+1533179781946	mozrunner::runner	INFO	Running command: "C:\\yangliu\\allsoft\\火狐\\firefox.exe" "-marionette" "-profile" "C:\\Users\\nxf46859\\AppData\\Local\\Temp\\5\\rust_mozprofile.Ad5ajTO2JZxU"
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+1533179785479	Marionette	INFO	Listening on port 61697
+1533179785639	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15[Child 14820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1[Parent 19472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 10800, Chrome_Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1533179806791	geckodriver	INFO	geckodriver 0.20.1
+1533179806803	geckodriver	INFO	Listening on 127.0.0.1:61736
+1533179809853	mozrunner::runner	INFO	Running command: "C:\\yangliu\\allsoft\\火狐\\firefox.exe" "-marionette" "-profile" "C:\\Users\\nxf46859\\AppData\\Local\\Temp\\5\\rust_mozprofile.QHSnYZCRig7Q"
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+1533179814155	Marionette	INFO	Listening on port 61746
+1533179815124	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16252, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16252, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chro*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 18244, Chrome_ChildThread] WARN
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1533179869262	geckodriver	INFO	geckodriver 0.20.1
+1533179869278	geckodriver	INFO	Listening on 127.0.0.1:64196
+1533179872436	mozrunner::runner	INFO	Running command: "C:\\yangliu\\allsoft\\火狐\\firefox.exe" "-marionette" "-profile" "C:\\Users\\nxf46859\\AppData\\Local\\Temp\\5\\rust_mozprofile.ux35aNZXKwwT"
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+1533179875832	Marionette	INFO	Listening on port 64204
+1533179876181	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+[Child 17740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2872, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 151533179924263	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 2872, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 12584, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1533201809658	geckodriver	INFO	geckodriver 0.20.1
+1533201809674	geckodriver	INFO	Listening on 127.0.0.1:54955
+1533201812752	mozrunner::runner	INFO	Running command: "C:\\yangliu\\allsoft\\火狐\\firefox.exe" "-marionette" "-profile" "C:\\Users\\nxf46859\\AppData\\Local\\Temp\\1\\rust_mozprofile.aibjvpgT8b3o"
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\nxf46859\AppData\Local\openvr\openvrpaths.vrpath
+1533201816553	Marionette	INFO	Listening on port 54964
+1533201816995	Marionette	WARN	TLS certificate errors will be ignored for this session
+1533201861894	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+JavaScript error: https://console.edgescale.org/static/js/25.25dd476f009ff20dbd74.js, line 1: TypeError: window.event is undefined
+[Child 3272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/c[Child [Parent 8956, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

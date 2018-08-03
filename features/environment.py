@@ -11,7 +11,9 @@ def before_feature(context, feature):
      # print("Before feature")
 
      # 选择浏览器
-     context.driver = webdriver.Chrome()
+     # context.driver = webdriver.Chrome()
+     # context.driver = webdriver.Firefox()
+     context.driver = webdriver.Edge()
 
      # 判断是否需要登录
      if ('login' != feature.name) and ('login fail' != feature.name) and ('register fail' != feature.name):
