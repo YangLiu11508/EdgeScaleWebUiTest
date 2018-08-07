@@ -1,0 +1,116 @@
+{
+  "uid" : "9d9dbfbd72ba4b89",
+  "name" : "register fail R002",
+  "historyId" : "9e5391795ee33686ec73e2d92e04cb2f",
+  "time" : {
+    "start" : 1533533488975,
+    "stop" : 1533533488979,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given register fail Access Egdescale website",
+      "time" : {
+        "start" : 1533533488979,
+        "stop" : 1533533488979,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When register fail with FirstName liu, LastName yang, Email liu.yang_1@nxp.com, AccountType USER, CompanyName nxp",
+      "time" : {
+        "start" : 1533533488979,
+        "stop" : 1533533488979,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then stay in register page",
+      "time" : {
+        "start" : 1533533488979,
+        "stop" : 1533533488979,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "RegisterFail"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "register fail"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fcea971119071fb6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533526238807,
+        "stop" : 1533526238809,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "3ff9b5d5ad6c463b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533525870283,
+        "stop" : 1533525870285,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "RegisterFail" ]
+  },
+  "source" : "9d9dbfbd72ba4b89.json",
+  "parameterValues" : [ ]
+}

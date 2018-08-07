@@ -3,4 +3,4 @@ Feature: setting limit
   Scenario: setting limit MA008
     Given None
     when setting limit with limitType device, limit 100
-    then setting limit resultMessage Success
+    then setting limit resultMessage Success to update the max limit data for user

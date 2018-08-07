@@ -40,18 +40,20 @@ def step_impl(context, resultMessage):
 @when('delete vendor')
 def step_impl(context):
     # 使用URL的方式会出现不显示Create Model 按钮
-    # context.driver.get(Url.BASE_URL + Url.MODEL)
-    # print("url = " + str(Url.BASE_URL + Url.MODEL))
+    # context.driver.get(Url.BASE_URL + Url.VENDOR)
+    # print("url = " + str(Url.BASE_URL + Url.VENDOR))
     sleep(10)
     context.driver.find_element_by_xpath("//div[@id='app']/div/div[2]/div/div/div/div/div/ul/li[9]/a/i").click()
     sleep(3)
     context.driver.find_element_by_xpath("//div[@id='app']/div/div[2]/div/div/div/div/div/ul/li[9]/a/span").click()
     sleep(1)
-    context.driver.find_element_by_link_text("Mirror").click()
-    sleep(5)
-    context.driver.find_element_by_xpath("(//button[@type='button'])[40]").click()
+    context.driver.find_element_by_link_text("Vendor").click()
+    sleep(10)
+    context.driver.find_element_by_xpath(
+        "(.//*[normalize-space(text()) and normalize-space(.)='vendortest'])[1]/following::i[2]").click()
     sleep(1)
-    context.driver.find_element_by_xpath("(//button[@type='button'])[45]").click()
+    context.driver.find_element_by_xpath(
+        "(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/following::button[1]").click()
 
 
 

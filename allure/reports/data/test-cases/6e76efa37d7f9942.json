@@ -1,0 +1,116 @@
+{
+  "uid" : "6e76efa37d7f9942",
+  "name" : "delete tag from device D004",
+  "historyId" : "cdc75790224427ae3fa6e4327aacb72d",
+  "time" : {
+    "start" : 1533533488636,
+    "stop" : 1533533488639,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given None",
+      "time" : {
+        "start" : 1533533488639,
+        "stop" : 1533533488639,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When delete tag",
+      "time" : {
+        "start" : 1533533488639,
+        "stop" : 1533533488639,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then delete tag resultMessage Success",
+      "time" : {
+        "start" : 1533533488639,
+        "stop" : 1533533488639,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "DeleteTagFromDevice"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "add tag to device"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "706ce56de9f5a482",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533526238529,
+        "stop" : 1533526238529,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "68e438eec2b6dc06",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533525870140,
+        "stop" : 1533525870142,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "DeleteTagFromDevice" ]
+  },
+  "source" : "6e76efa37d7f9942.json",
+  "parameterValues" : [ ]
+}

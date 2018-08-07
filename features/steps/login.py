@@ -33,4 +33,4 @@ def step_impl(context, username):
     context.driver.find_element_by_xpath("//div[@id='navbar-mobile']/div/div[2]/a/div/span/i").click()
     sleep(5)
     context.driver.find_element_by_link_text("Logout").click()
-    sleep(10)
+    sleep(5)

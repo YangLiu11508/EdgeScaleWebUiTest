@@ -1,0 +1,101 @@
+{
+  "uid" : "b40ee382afc8ca77",
+  "name" : "find model M006",
+  "historyId" : "e186c7bbd13af541509ae42853826170",
+  "time" : {
+    "start" : 1533533488920,
+    "stop" : 1533533488923,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given None",
+      "time" : {
+        "start" : 1533533488923,
+        "stop" : 1533533488923,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When find model with plantform ls1046a",
+      "time" : {
+        "start" : 1533533488923,
+        "stop" : 1533533488923,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "FindModelByPlantform"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "find model by plantform"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "56fe604be38636b6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533526238747,
+        "stop" : 1533526238747,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e229f1bc9ee84be8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533525870255,
+        "stop" : 1533525870257,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "FindModelByPlantform" ]
+  },
+  "source" : "b40ee382afc8ca77.json",
+  "parameterValues" : [ ]
+}

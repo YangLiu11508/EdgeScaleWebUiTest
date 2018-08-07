@@ -12,8 +12,12 @@ class Url:
     global MODEL
     global TASK
     global USER
+    global VENDOR
 
-    BASE_URL = "https://console.edgescale.org"
+    # 正式版
+    # BASE_URL = "https://console.edgescale.org"
+    # 开发版
+    BASE_URL = "https://dashboard-dev.edgescale.org"
     LOGIN = "/login"
     DEVICE = "/device"
     DEVICE_CREATE = "/device/create"
@@ -25,3 +29,4 @@ class Url:
     MODEL = "/model"
     TASK = "/task"
     USER = "/manage/user"
+    VENDOR = "/manage/vendor"

@@ -26,7 +26,7 @@ def step_impl(context,limitType,limit):
 
 @then('setting limit resultMessage {resultMessage}')
 def step_impl(context, resultMessage):
-    locator = (By.CSS_SELECTOR, '.el-notification.right>div>h2')
+    locator = (By.CSS_SELECTOR, 'div.el-message.el-message--success>p')
     isDeploySuccess = WebDriverWait(context.driver, 10, 0.5).until(
         EC.text_to_be_present_in_element(locator, resultMessage))
     assert isDeploySuccess == True

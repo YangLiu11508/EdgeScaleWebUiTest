@@ -1,0 +1,116 @@
+{
+  "uid" : "4384159b7ac0d6e5",
+  "name" : "Delete App A002",
+  "historyId" : "0caa194b671b5c28dc038bb85cefdbe1",
+  "time" : {
+    "start" : 1533533488517,
+    "stop" : 1533533488521,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given None",
+      "time" : {
+        "start" : 1533533488521,
+        "stop" : 1533533488521,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When delete app with appName test",
+      "time" : {
+        "start" : 1533533488521,
+        "stop" : 1533533488521,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then delete app resultMessage Success",
+      "time" : {
+        "start" : 1533533488521,
+        "stop" : 1533533488521,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "DeleteApp"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "create app"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2edd5dfec167d3ac",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533526238451,
+        "stop" : 1533526238451,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9179e0fb0d6ce845",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533525870092,
+        "stop" : 1533525870094,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "DeleteApp" ]
+  },
+  "source" : "4384159b7ac0d6e5.json",
+  "parameterValues" : [ ]
+}

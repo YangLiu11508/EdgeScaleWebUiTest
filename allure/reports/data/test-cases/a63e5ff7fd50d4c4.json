@@ -1,0 +1,116 @@
+{
+  "uid" : "a63e5ff7fd50d4c4",
+  "name" : "delete Device D002",
+  "historyId" : "f4303ba6c39739eaf63e271b73184cc0",
+  "time" : {
+    "start" : 1533533488708,
+    "stop" : 1533533488713,
+    "duration" : 5
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given None",
+      "time" : {
+        "start" : 1533533488712,
+        "stop" : 1533533488712,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When delete device with deviceName 12ad0f2a888150e199378590dccfc4d6.iot.gateway.ls1046a.nxp",
+      "time" : {
+        "start" : 1533533488712,
+        "stop" : 1533533488712,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then delete device resultMessage Success",
+      "time" : {
+        "start" : 1533533488712,
+        "stop" : 1533533488713,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "DeleteDevice"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "create device"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "12e30321f14c26e3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533526238591,
+        "stop" : 1533526238591,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15e9cd9ac8b5334b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533525870166,
+        "stop" : 1533525870168,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "DeleteDevice" ]
+  },
+  "source" : "a63e5ff7fd50d4c4.json",
+  "parameterValues" : [ ]
+}

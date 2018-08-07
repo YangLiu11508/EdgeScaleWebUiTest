@@ -1,0 +1,116 @@
+{
+  "uid" : "6d527fcacd1c9e76",
+  "name" : "add tag to device D003",
+  "historyId" : "77a7c117f54f59d169670614eded0bee",
+  "time" : {
+    "start" : 1533533488618,
+    "stop" : 1533533488621,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given None",
+      "time" : {
+        "start" : 1533533488621,
+        "stop" : 1533533488621,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When add tag with tag tag123",
+      "time" : {
+        "start" : 1533533488621,
+        "stop" : 1533533488621,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then add tag resultMessage Success",
+      "time" : {
+        "start" : 1533533488621,
+        "stop" : 1533533488621,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "AddTagToDevice"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "add tag to device"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "278c4f92c53ddde8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533526238529,
+        "stop" : 1533526238529,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a15c4408525b7064",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533525870134,
+        "stop" : 1533525870136,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "AddTagToDevice" ]
+  },
+  "source" : "6d527fcacd1c9e76.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,116 @@
+{
+  "uid" : "abdb36e32b138936",
+  "name" : "Change permission A009",
+  "historyId" : "adaf2055afceac99ac491e40825a4bf2",
+  "time" : {
+    "start" : 1533533488493,
+    "stop" : 1533533488496,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given None",
+      "time" : {
+        "start" : 1533533488496,
+        "stop" : 1533533488496,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When change permission",
+      "time" : {
+        "start" : 1533533488496,
+        "stop" : 1533533488496,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then change permission resultMessage Success",
+      "time" : {
+        "start" : 1533533488496,
+        "stop" : 1533533488496,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ChangeAppPermission"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "change permission"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "356de1292f3d7543",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533526238419,
+        "stop" : 1533526238419,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "821f035f5521da5c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533525870079,
+        "stop" : 1533525870080,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "ChangeAppPermission" ]
+  },
+  "source" : "abdb36e32b138936.json",
+  "parameterValues" : [ ]
+}

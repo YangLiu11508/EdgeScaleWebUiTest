@@ -27,7 +27,7 @@ def step_impl(context,username,email):
 
 @then('create user resultMessage {resultMessage}')
 def step_impl(context, resultMessage):
-    locator = (By.CSS_SELECTOR, '.el-notification.right>div>h2')
+    locator = (By.CSS_SELECTOR, 'div.el-message.el-message--success>p')
     isCreateSuccess = WebDriverWait(context.driver, 10, 0.5).until(
         EC.text_to_be_present_in_element(locator,  resultMessage))
     assert isCreateSuccess == True

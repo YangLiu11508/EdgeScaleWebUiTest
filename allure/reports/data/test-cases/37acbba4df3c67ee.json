@@ -1,0 +1,116 @@
+{
+  "uid" : "37acbba4df3c67ee",
+  "name" : "login fail L003",
+  "historyId" : "67deb789547c3f7efeb56e97642a45e8",
+  "time" : {
+    "start" : 1533533568443,
+    "stop" : 1533533568443,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given login fail Access Egdescale website",
+      "time" : {
+        "start" : 1533533568443,
+        "stop" : 1533533568443,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When login fail with username zhengqiong.zhu, password zhuzhengqiong123",
+      "time" : {
+        "start" : 1533533568443,
+        "stop" : 1533533568443,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then stay in login page",
+      "time" : {
+        "start" : 1533533568443,
+        "stop" : 1533533568443,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "LoginFail"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "login fail"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6873aae4e63bb1b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533526520663,
+        "stop" : 1533526520663,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "24e00119b2609238",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533526113138,
+        "stop" : 1533526113140,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "LoginFail" ]
+  },
+  "source" : "37acbba4df3c67ee.json",
+  "parameterValues" : [ ]
+}

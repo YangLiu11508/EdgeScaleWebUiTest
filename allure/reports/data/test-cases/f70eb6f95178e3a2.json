@@ -1,0 +1,116 @@
+{
+  "uid" : "f70eb6f95178e3a2",
+  "name" : "edit model M002",
+  "historyId" : "653f45bcf9dfc2a04f388482e90c9376",
+  "time" : {
+    "start" : 1533533488877,
+    "stop" : 1533533488881,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given None",
+      "time" : {
+        "start" : 1533533488881,
+        "stop" : 1533533488881,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When edit model with Model new666, Type thing, Platform ls1046a, Vendor nxp",
+      "time" : {
+        "start" : 1533533488881,
+        "stop" : 1533533488881,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then edit model resultMessage Success",
+      "time" : {
+        "start" : 1533533488881,
+        "stop" : 1533533488881,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "EditModel"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "create model"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "af16d42a4351a261",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533526238716,
+        "stop" : 1533526238716,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4d9297be138e61a9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1533525870235,
+        "stop" : 1533525870237,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "EditModel" ]
+  },
+  "source" : "f70eb6f95178e3a2.json",
+  "parameterValues" : [ ]
+}
