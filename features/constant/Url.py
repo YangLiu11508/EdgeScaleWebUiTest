@@ -15,9 +15,9 @@ class Url:
     global VENDOR
 
     # 正式版
-    # BASE_URL = "https://console.edgescale.org"
+    BASE_URL = "https://console.edgescale.org"
     # 开发版
-    BASE_URL = "https://dashboard-dev.edgescale.org"
+    # BASE_URL = "https://dashboard-dev.edgescale.org"
     LOGIN = "/login"
     DEVICE = "/device"
     DEVICE_CREATE = "/device/create"

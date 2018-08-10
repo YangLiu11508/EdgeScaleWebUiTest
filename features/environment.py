@@ -24,10 +24,10 @@ def before_feature(context, feature):
          context.driver.get(Url.BASE_URL + Url.LOGIN)
          context.driver.find_element_by_xpath("//input[@type='text']").click()
          context.driver.find_element_by_xpath("//input[@type='text']").clear()
-         context.driver.find_element_by_xpath("//input[@type='text']").send_keys("liu.yang_1@nxp.com")
+         context.driver.find_element_by_xpath("//input[@type='text']").send_keys("wei.yang")
          context.driver.find_element_by_xpath("//input[@type='password']").click()
          context.driver.find_element_by_xpath("//input[@type='password']").clear()
-         context.driver.find_element_by_xpath("//input[@type='password']").send_keys("yangliu123")
+         context.driver.find_element_by_xpath("//input[@type='password']").send_keys("1qazxsw2")
          context.driver.find_element_by_xpath("//button[@type='button']").click()
          sleep(10)
 
